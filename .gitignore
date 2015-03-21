@@ -3,3 +3,4 @@ node_modules
 parse
 .tmp
 .sass-cache
+.swp
