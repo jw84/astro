@@ -17,31 +17,6 @@ body {
   background:         linear-gradient(135deg, #24C6DC 10%, #514A9D 90%); /* W3C */
 }
 
-.btn-ghost {
-  background: transparent;
-  color: #F2F2F2;
-  width: 200px;
-  margin-top: 20px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  text-transform: uppercase;
-  text-shadow: 0 1px 1px rgba(0,0,0,0.33);
-  font-size: 1.5vh;
-  line-height: 2vh;
-
-  /* CSS Transition */
-  -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
-  -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
-  -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
-  -o-transition: background .2s ease-in-out, border .2s ease-in-out;
-  transition: background .2s ease-in-out, border .2s ease-in-out;
-
-  /* Rounding */
-  -webkit-border-radius: 0;
-  -moz-border-radius:    0;
-  border-radius:         0;
-}
-
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -84,34 +59,81 @@ body {
   margin: 30px 0;
 }
 
-h1, h2 {
+.hero h1, h2, h3 {
   text-align: center;
-  text-shadow: 0 1px 1px rgba(0,0,0,0.5);
-  font-size: 6vh;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.33);
+  font-size: 9vh;
   font-weight: 700;
-  margin-bottom: 10px;
+  font-family: 'Lato', Arial, sans-serif;
 }
 
-h1 {
+.hero h1 {
   margin-top: 100px;
+  margin-bottom: 50px;
   font-family: 'Pacifico';
   font-style: normal;
   font-weight: 400;
   src: local('Pacifico Regular'), local('Pacifico-Regular'), url(http://themes.googleusercontent.com/static/fonts/pacifico/v5/yunJt0R8tCvMyj_V4xSjafesZW2xOQ-xsNqO47m55DA.woff) format('woff');
 }
 
-h2 {
-  font-size: 2.5vh;
-  font-weight: 400;
+.hero h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 3.4vh;
+  font-weight: 600;
+
 }
 
-p.lead {
+.hero h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 2.4vh;
+  font-weight: 300;
+}
+
+.hero img {
+  margin: 15px;
+  max-width: 200px;
+  max-height: 100px;
+}
+
+.hero p {
+  margin-top: 60px;
   text-align: center;
-  text-shadow: 0 1px 1px rgba(0,0,0,0.5);
-  font-size: 1.25vh;
-  font-weight: 200;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.33);
+  font-size: 2.2vh;
+  font-weight: 300;
+  font-family: 'Lato', Arial, sans-serif;
+  line-height: 4vh;
 }
 
+.btn-ghost {
+  background: transparent;
+  color: #F2F2F2;
+  width: 280px;
+  margin-top: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.33);
+  font-size: 1.75vh;
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: 200;
+  line-height: 2vh;
+  border-width: 2px;
+
+  /* CSS Transition */
+  -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
+
+  /* Rounding */
+  -webkit-border-radius: ;
+  -moz-border-radius:    ;
+  border-radius:         ;
+}
 
 /* Main marketing message and sign up button */
 .jumbotron {
