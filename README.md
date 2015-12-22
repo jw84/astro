@@ -37,3 +37,6 @@ author
 pages
 publisher
 isbn
+
+
+[![Join the chat at https://gitter.im/jw84/astro](https://badges.gitter.im/jw84/astro.svg)](https://gitter.im/jw84/astro?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
